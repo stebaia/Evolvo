@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Evolvo</string>
+    <string name="email_edit"><font size="16">Email</font></string>
+    <string name="passw_edit"><font size="16">Password</font></string>
+    <string name="passw_forgot">Hai dimenticato la password?</string>
+    <string name="no_account">Non hai un account?</string>
+    <string name="sing_up">Registrati</string>
+    <string name="get_start">Inizia!</string>
+    <string name="beauty_treatment">Trattamenti di bellezza</string>
+    <string name="fisio_treatment">Trattamenti fisioterapici</string>
 </resources>

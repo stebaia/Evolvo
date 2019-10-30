@@ -2,5 +2,34 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="navigation_bar">#00a5d9</color>
+    <color name="sponsor_bg">#88cdbf</color>
+    <color name="icons">#8dc63f</color>
+    <color name="menu_header">#045170</color>
+    <color name="menu_background">#056c96</color>
+    <color name="facebook_button">#195d9e</color>
+    <color name="google_plus_button">#d93d3e</color>
+    <color name="red">#fc3d3a</color>
+    <color name="background_view">#efeff0</color>
+    <color name="list_arrow">#cccccc</color>
+    <color name="secondary_text">#929292</color>
+    <color name="text">#222222</color>
+    <color name="issue_open">#fc3d3a</color>
+    <color name="issue_doing">#ffba00</color>
+    <color name="issue_archived">#00C0EF</color>
+    <color name="tips">#eeca00</color>
+    <color name="text_color">#333</color>
+
+    <color name="myPrimaryColor">#2196F3</color>
+    <color name="myPrimaryDarkColor">#1976D2</color>
+    <color name="myAccentColor">#FF4081</color>
+    <color name="myDrawerBackground">#FFF</color>
+    <color name="myWindowBackground">#FFF</color>
+    <color name="myTextPrimaryColor">#212121</color>
+    <color name="myNavigationColor">#000</color>
+    <color name="checkBox">#009688</color>
+
+
 </resources>
