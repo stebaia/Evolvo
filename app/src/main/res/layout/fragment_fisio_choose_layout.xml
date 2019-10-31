@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/colorWhite">
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@color/colorWhite">
     <LinearLayout
             android:id="@+id/linear"
             android:layout_centerInParent="true"
@@ -11,18 +11,18 @@
         <ImageView
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
-                android:src="@drawable/beauty_treatment"
+                android:src="@drawable/therapy"
                 android:layout_height="wrap_content"/>
         <TextView android:layout_width="wrap_content"
                   android:textSize="22dp"
                   android:layout_gravity="center"
                   android:textStyle="bold"
-                  android:text="@string/beauty_treatment"
+                  android:text="@string/fisio_treatment"
                   android:layout_height="wrap_content"/>
         <TextView android:layout_width="wrap_content"
                   android:textSize="16dp"
                   android:layout_gravity="center"
-                  android:text="Scopri i miglori trattamenti di bellezza"
+                  android:text="Scopri i miglori trattamenti fisioterapici"
                   android:layout_height="wrap_content"/>
 
     </LinearLayout>
