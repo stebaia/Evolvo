@@ -3,7 +3,7 @@
                   android:orientation="vertical"
                   android:layout_width="match_parent"
                   android:layout_height="match_parent"
-                  android:background="@color/colorWhite">
+                  android:background="@color/myPrimaryColor">
     <LinearLayout
             android:id="@+id/linear"
             android:layout_centerInParent="true"
@@ -14,6 +14,7 @@
                 android:src="@drawable/therapy"
                 android:layout_height="wrap_content"/>
         <TextView android:layout_width="wrap_content"
+                  android:textColor="@color/colorWhite"
                   android:textSize="22dp"
                   android:layout_gravity="center"
                   android:textStyle="bold"
@@ -21,6 +22,7 @@
                   android:layout_height="wrap_content"/>
         <TextView android:layout_width="wrap_content"
                   android:textSize="16dp"
+                  android:textColor="@color/colorWhite"
                   android:layout_gravity="center"
                   android:text="Scopri i miglori trattamenti fisioterapici"
                   android:layout_height="wrap_content"/>
@@ -33,8 +35,8 @@
             android:textSize="18dp"
             android:textAllCaps="false"
             android:text="@string/get_start"
-            android:textColor="@color/colorWhite"
-            android:background="@drawable/background_rounded_login"
+            android:textColor="@color/myPrimaryColor"
+            android:background="@drawable/background_rounded_white"
             android:layout_width="150dp"
             android:layout_gravity="center" android:layout_height="40dp"/>
 </RelativeLayout>

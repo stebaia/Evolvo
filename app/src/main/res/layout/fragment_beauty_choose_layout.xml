@@ -15,12 +15,14 @@
                 android:layout_height="wrap_content"/>
         <TextView android:layout_width="wrap_content"
                   android:textSize="22dp"
+                  android:textColor="@color/myPrimaryColor"
                   android:layout_gravity="center"
                   android:textStyle="bold"
                   android:text="@string/beauty_treatment"
                   android:layout_height="wrap_content"/>
         <TextView android:layout_width="wrap_content"
                   android:textSize="16dp"
+                  android:textColor="@color/myPrimaryColor"
                   android:layout_gravity="center"
                   android:text="Scopri i miglori trattamenti di bellezza"
                   android:layout_height="wrap_content"/>
