@@ -7,5 +7,15 @@
     <string name="sing_up">Registrati</string>
     <string name="get_start">Inizia!</string>
     <string name="beauty_treatment">Trattamenti di bellezza</string>
+    <string name="sport_treatment">Trattamenti per gli sportivi</string>
     <string name="fisio_treatment">Trattamenti fisioterapici</string>
+
+
+    <string name="beauty_menu">Beauty</string>
+    <string name="sport_menu">Sport</string>
+    <string name="fisio_menu">Healthcare</string>
+    <string name="favourites_menu">Favourites</string>
+    <string name="search_menu">Search</string>
+    <string name="shop_menu">Shop</string>
+    <string name="home_menu">Home</string>
 </resources>
