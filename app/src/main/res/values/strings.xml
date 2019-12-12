@@ -9,7 +9,9 @@
     <string name="beauty_treatment">Trattamenti di bellezza</string>
     <string name="sport_treatment">Trattamenti per gli sportivi</string>
     <string name="fisio_treatment">Trattamenti fisioterapici</string>
-
+    <string name="welcome">Bentornato su </string>
+    <string name="login_with">Per poter accedere loggati con il tuo account BastoniLab!</string>
+    <string name="search">Cerca</string>
 
     <string name="beauty_menu">Beauty</string>
     <string name="sport_menu">Sport</string>

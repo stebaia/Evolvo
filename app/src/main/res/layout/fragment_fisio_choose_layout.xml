@@ -1,42 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
                   android:orientation="vertical"
                   android:layout_width="match_parent"
-                  android:layout_height="match_parent"
-                  android:background="@color/myPrimaryColor">
-    <LinearLayout
-            android:id="@+id/linear"
-            android:layout_centerInParent="true"
-            android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <ImageView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:src="@drawable/therapy"
-                android:layout_height="wrap_content"/>
-        <TextView android:layout_width="wrap_content"
-                  android:textColor="@color/colorWhite"
-                  android:textSize="22dp"
-                  android:layout_gravity="center"
-                  android:textStyle="bold"
-                  android:text="@string/fisio_treatment"
-                  android:layout_height="wrap_content"/>
-        <TextView android:layout_width="wrap_content"
-                  android:textSize="16dp"
-                  android:textColor="@color/colorWhite"
-                  android:layout_gravity="center"
-                  android:text="Scopri i miglori trattamenti fisioterapici"
-                  android:layout_height="wrap_content"/>
+                  android:layout_height="match_parent">
+    <TextView
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/text"
+            android:text="@string/fisio_treatment"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <EditText
+            android:layout_margin="20dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:background="@drawable/background_search"
+            android:padding="20dp"
+            android:id="@+id/edt_search"
+            android:hint="@string/search"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/recyclerview_fisio"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    </LinearLayout>
-    <Button
-            android:layout_centerHorizontal="true"
-            android:layout_below="@id/linear"
-            android:layout_marginTop="50dp"
-            android:textSize="18dp"
-            android:textAllCaps="false"
-            android:text="@string/get_start"
-            android:textColor="@color/myPrimaryColor"
-            android:background="@drawable/background_rounded_white"
-            android:layout_width="150dp"
-            android:layout_gravity="center" android:layout_height="40dp"/>
-</RelativeLayout>
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
