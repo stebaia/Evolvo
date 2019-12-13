@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
     <TextView
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:id="@+id/txt_nome"
             android:textStyle="bold"
@@ -30,7 +34,8 @@
             android:layout_height="wrap_content">
         <LinearLayout android:layout_width="wrap_content"
                       android:layout_height="match_parent">
-        <ImageView 
+        <ImageView
+                android:layout_gravity="center"
                 android:src="@drawable/healthcare"
                 android:id="@+id/img_category"
                 android:layout_width="30dp"
@@ -43,6 +48,7 @@
                 android:layout_height="wrap_content"/>
         </LinearLayout>
         <LinearLayout
+                android:visibility="gone"
                 android:layout_centerVertical="true"
                 android:layout_alignParentEnd="true"
                 android:layout_width="wrap_content"
@@ -82,7 +88,6 @@
     </LinearLayout>
 
     <View
-            android:layout_alignEnd="@id/txt_descrizione"
             android:layout_alignParentBottom="true"
             android:background="@color/secondary_text"
             android:layout_width="match_parent"

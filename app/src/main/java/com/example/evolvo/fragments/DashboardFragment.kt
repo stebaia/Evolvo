@@ -12,14 +12,18 @@ class DashboardFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_dashboard_menu, container, false)
-        /*var card_health  = view.findViewById<CardView>(R.id.card_health)
-        var card_beauty  = view.findViewById<CardView>(R.id.card_beauty)
+       /* val fragmentTransaction = fragmentManager?.beginTransaction()
+        var card_health  = view.findViewById<CardView>(R.id.card_health)
+        /*var card_beauty  = view.findViewById<CardView>(R.id.card_beauty)
         var card_sport  = view.findViewById<CardView>(R.id.card_sport)
         var card_search  = view.findViewById<CardView>(R.id.card_search)
         var card_favourites  = view.findViewById<CardView>(R.id.card_favourites)
         var card_shop  = view.findViewById<CardView>(R.id.card_shop)
+        */
         card_health.setOnClickListener{
-
+            if (fragmentTransaction != null) {
+                fragmentTransaction.replace(R.id.container,DashboardFragment.newIstance(),"dashboard").commit()
+            }
         }*/
         return view
     }
