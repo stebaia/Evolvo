@@ -5,28 +5,33 @@
                   android:layout_width="match_parent"
                   android:layout_height="match_parent">
     <TextView
+            android:visibility="gone"
             android:textSize="24dp"
             android:textStyle="bold"
             android:textColor="@color/text"
             android:text="@string/fisio_treatment"
-            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
     />
     <EditText
-            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
             android:drawablePadding="6dp"
+            android:background="@null"
             android:drawableLeft="@drawable/ic_search_black_24dp"
-            android:background="@drawable/background_search"
             android:padding="10dp"
             android:id="@+id/edt_search"
             android:hint="@string/search"
             android:layout_width="match_parent"
             android:layout_height="50dp"/>
     <androidx.recyclerview.widget.RecyclerView
-            android:layout_marginLeft="10dp"
             android:id="@+id/recyclerview_fisio"
-            android:layout_marginRight="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 

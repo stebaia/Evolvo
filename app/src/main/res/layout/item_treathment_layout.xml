@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
 
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+
         android:layout_marginTop="10dp"
         xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="100dp">
+                android:layout_height="90dp">
     <TextView
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:id="@+id/txt_nome"
             android:textStyle="bold"
             android:textColor="@color/text"
@@ -20,15 +19,14 @@
             android:layout_height="wrap_content"/>
     <TextView
             android:layout_below="@id/txt_nome"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:id="@+id/txt_descrizione"
             android:text="Forte mal di testa concentrato nelle tempie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     <RelativeLayout
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_below="@id/txt_descrizione"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -69,6 +67,7 @@
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout
+            android:visibility="gone"
             android:layout_margin="10dp"
             android:layout_marginRight="10dp"
             android:layout_alignParentEnd="true"
@@ -88,6 +87,7 @@
     </LinearLayout>
 
     <View
+            android:visibility="gone"
             android:layout_alignParentBottom="true"
             android:background="@color/secondary_text"
             android:layout_width="match_parent"
